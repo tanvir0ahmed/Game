@@ -1,0 +1,47 @@
+.grid{
+	width: 200px;
+	height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	border-style: solid;
+
+}
+
+
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: orange;
+
+}
+
+.start{
+	font-size: 24px;
+	background: #7F8C8D;
+	font-family: consolas;
+
+}
+
+.score{
+	color: #1C2833;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: consolas;
+
+}
+
+.grid div{
+	height: 20px;
+	width: 20px;
+}
+
+.snake{
+	background-color: black; 
+	border-radius: 10px;
+}
+
+.apple{
+	background-color: red;
+	border-radius: 10px;
+}
